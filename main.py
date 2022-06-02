@@ -93,8 +93,7 @@ class SecondScr(Screen):
 class ThridScr(Screen):
     def __init__(self, name = 'thrid'):
         super().__init__(name = name)
-        global p2
-        global p3
+        global p2, p3
         box1 = BoxLayout(orientation = 'vertical')
         box2 = BoxLayout(orientation = 'vertical', 
                          padding = 20, spacing = 1)
@@ -157,3 +156,4 @@ class MyApp(App):
 
 app = MyApp()
 app.run()
+# богдан кушает собак
